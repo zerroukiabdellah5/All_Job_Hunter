@@ -1,0 +1,41 @@
+{
+  "germany_primary_sources": [
+    {
+      "name": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com",
+      "focus": "Official portal for skilled workers, jobs welcoming international applicants"
+    },
+    {
+      "name": "Bundesagentur für Arbeit (BA)",
+      "url": "https://www.arbeitsagentur.de",
+      "focus": "Federal Employment Agency job exchange (Jobbörse)"
+    },
+    {
+      "name": "StepStone Germany",
+      "url": "https://www.stepstone.de",
+      "focus": "Major job board for IT and professional roles"
+    },
+    {
+      "name": "Indeed Germany",
+      "url": "https://de.indeed.com",
+      "focus": "Aggregator for IT support and database roles"
+    },
+    {
+      "name": "LinkedIn Jobs (Germany)",
+      "url": "https://www.linkedin.com/jobs",
+      "focus": "International and English-friendly tech roles"
+    },
+    {
+      "name": "XING",
+      "url": "https://www.xing.com",
+      "focus": "Top professional network in German-speaking countries"
+    }
+  ],
+  "custom_user_sources": [
+    {
+      "name": "Mittelstand & Direct Company Career Pages",
+      "url": "Add your preferred company websites here",
+      "focus": "Direct applications"
+    }
+  ]
+}

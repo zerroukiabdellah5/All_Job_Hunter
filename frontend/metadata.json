@@ -1,0 +1,6 @@
+{
+  "name": "AI Career Hunter",
+  "description": "Enterprise dark-mode job intelligence dashboard and automated cover letter generator tailored for German and Benelux markets with live scraper feeds and ZAB credential tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
