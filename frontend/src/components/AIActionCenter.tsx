@@ -106,7 +106,7 @@ export const AIActionCenter: React.FC<AIActionCenterProps> = ({
         </span>
       </div>
 
-      {/* Selected Job Quick Card */}
+  {/* Selected Job Quick Card */}
       <div className="p-3 rounded-lg bg-slate-900/80 border border-slate-800 space-y-1">
         <div className="flex items-center justify-between text-[11px] text-slate-400">
           <span className="truncate font-medium">{selectedJob.company}</span>
@@ -118,6 +118,18 @@ export const AIActionCenter: React.FC<AIActionCenterProps> = ({
         <div className="text-[10px] text-slate-400 flex items-center justify-between pt-1">
           <span>Source: <strong className="text-slate-200">{selectedJob.source}</strong></span>
           <span className="text-emerald-400 font-mono font-medium">{selectedJob.salaryRange}</span>
+        </div>
+        
+        {/* Direct Live Job Link */}
+        <div className="pt-2 mt-1 border-t border-slate-800 flex justify-end">
+          <a
+            href={selectedJob.source === 'Make it in Germany' ? 'https://www.make-it-in-germany.com' : 'https://www.google.com/search?q=' + encodeURIComponent(selectedJob.title + ' ' + selectedJob.company)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[11px] text-emerald-400 hover:text-emerald-300 font-medium flex items-center gap-1 transition-colors underline"
+          >
+            <span>🔗 Open Original Live Job Posting</span>
+          </a>
         </div>
       </div>
 
